@@ -17,6 +17,6 @@ export class MoviesService {
     let headers = {
       api_key: this.apiKey
     }
-    return this._http.get(this.apiUrl + '/movie/11?api_key=f03634b58bf593de55f9482f0e602fb3')
+    return this._http.get(this.apiUrl + 'trending/all/')
   }
 }
