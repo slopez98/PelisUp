@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { TabComponent } from './tab/tab.component';
 import { CardComponent } from './card/card.component';
 import { TabPreviewComponent } from './tab-preview/tab-preview.component';
+import { SearchComponent } from './search/search.component';
 
 
 
@@ -10,7 +11,8 @@ import { TabPreviewComponent } from './tab-preview/tab-preview.component';
   declarations: [
     TabComponent,
     CardComponent,
-    TabPreviewComponent
+    TabPreviewComponent,
+    SearchComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { TabPreviewComponent } from './tab-preview/tab-preview.component';
   exports: [
     TabComponent,
     CardComponent,
-    TabPreviewComponent
+    TabPreviewComponent,
+    SearchComponent
   ]
 })
 export class SharedModule { }
